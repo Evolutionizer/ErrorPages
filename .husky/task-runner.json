@@ -2,13 +2,13 @@
    "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
    "tasks": [
       {
-         "name": "Preprocess files",
+         "name": "compile-files",
          "command": "dotnet",
          "group": "pre-commit",
          "args": [
             "husky",
             "exec",
-            ".husky/csx/preprocess-files.csx"
+            ".husky/csx/compile-files.csx"
          ]
       }
    ]

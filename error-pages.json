@@ -1,0 +1,66 @@
+[
+    {
+        "title": "400",
+        "subtitle": "Bad Request",
+        "content": [
+            "It looks like there was an issue with your request. Please check the information you entered and try again.",
+            "If this issue persists, try contacting {Support}."
+        ]
+    },
+    {
+        "title": "403",
+        "subtitle": "Forbidden",
+        "content": [
+            "You don't have permission to access the content on this server.",
+            "Contact {Support} if you believe this is an error."
+        ]
+    },
+    {
+        "title": "405",
+        "subtitle": "Method Not Allowed",
+        "content": [
+            "The method you used to access this resource is not allowed.",
+            "Contact {Support} if you believe this is an error."
+        ]
+    },
+    {
+        "title": "408",
+        "subtitle": "Request Timeout",
+        "content": [
+            "Your request took too long to process and has timed out.",
+            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+        ]
+    },    
+    {
+        "title": "500",
+        "subtitle": "Internal Server Error",
+        "content": [
+            "It looks like the server encountered an unexpected condition that prevented it from fulfilling your request.",
+            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+        ]
+    },
+    {
+        "title": "502",
+        "subtitle": "Bad Gateway",
+        "content": [
+            "It looks like the server is not ready to handle your request.",
+            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+        ]
+    },
+    {
+        "title": "503",
+        "subtitle": "Service Unavailable",
+        "content": [
+            "The server is currently unable to handle your request.",
+            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+        ]
+    },
+    {
+        "title": "504",
+        "subtitle": "Gateway Timeout",
+        "content": [
+            "The server took too long to respond to your request.",
+            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+        ]
+    }
+]
