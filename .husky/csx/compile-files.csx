@@ -36,9 +36,9 @@ try
         var content = errorPage.Content.Select(c => c.Replace("{Support}", "<a href=\"mailto:support@evolutionizer.com\">support</a>", StringComparison.OrdinalIgnoreCase)).Select(x => $"<p>{x}</p>");
         var combinedContent = string.Join(" ", content);
         var errorPageContent = templateFileContent
-            .Replace("{Title}", errorPage.Title)
-            .Replace("{Subtitle}", errorPage.Subtitle)
-            .Replace("{Content}", combinedContent);
+            .Replace("{Title}", errorPage.Title, StringComparison.OrdinalIgnoreCase)
+            .Replace("{Subtitle}", errorPage.Subtitle, StringComparison.OrdinalIgnoreCase)
+            .Replace("{Content}", combinedContent, StringComparison.OrdinalIgnoreCase);
 
         var newFilePath = Path.Combine("compiled", $"{errorPage.Title.Replace(" ", "-")}.html");
         Directory.CreateDirectory(Path.GetDirectoryName(newFilePath));

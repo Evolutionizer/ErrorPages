@@ -9,4 +9,6 @@ Add the definition to `error-pages.json`. You can use the `{Support}` placeholde
 You can run `dotnet husky run -n compile-files` to immediately generate the new error page. It will be compiled into the `compiled` directory.
 
 ## Adjust template
-Edit `template.html` according to your needs. Ensure that all referenced resources are located in `resources`. Do not remove the `<base>` tag as this is mandatory to ensure content is loaded from the correct directory.
+Edit `template.html` according to your needs. Ensure that all referenced resources are located in `resources`. You can use the following placeholders: `{Title}`, `{Subtitle}`, `{Content}`
+
+Do not remove the `<base>` tag as this is mandatory to ensure content is loaded from the correct directory.
