@@ -14,7 +14,7 @@ try
 {
     var baseTagPattern = new Regex("""<base\s+href="\.\/resources\/"\s*\/>""");
     var templateFileContent = File.ReadAllText("template.html");
-    templateFileContent= baseTagPattern.Replace(templateFileContent, """<base href="https://raw.githubusercontent.com/Evolutionizer/ErrorPages/refs/heads/main/resources/" />""");
+    templateFileContent= baseTagPattern.Replace(templateFileContent, """<base href="https://cdn.jsdelivr.net/gh/evolutionizer/errorpages@main/resources/" />""");
     var errorPageDefinitions = JsonSerializer.Deserialize<List<ErrorPage>>(File.ReadAllText("error-pages.json"), new JsonSerializerOptions
     {
         PropertyNameCaseInsensitive = true
