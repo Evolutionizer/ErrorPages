@@ -28,7 +28,7 @@
         "subtitle": "Request Timeout",
         "content": [
             "Your request took too long to process and has timed out.",
-            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+            "Please try again in a few minutes, if this issue persists try contacting {Support}."
         ]
     },    
     {
@@ -36,7 +36,7 @@
         "subtitle": "Internal Server Error",
         "content": [
             "It looks like the server encountered an unexpected condition that prevented it from fulfilling your request.",
-            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+            "Please try again in a few minutes, if this issue persists try contacting {Support}."
         ]
     },
     {
@@ -44,7 +44,7 @@
         "subtitle": "Bad Gateway",
         "content": [
             "It looks like the server is not ready to handle your request.",
-            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+            "Please try again in a few minutes, if this issue persists try contacting {Support}."
         ]
     },
     {
@@ -52,7 +52,7 @@
         "subtitle": "Service Unavailable",
         "content": [
             "The server is currently unable to handle your request.",
-            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+            "Please try again in a few minutes, if this issue persists try contacting {Support}."
         ]
     },
     {
@@ -60,7 +60,7 @@
         "subtitle": "Gateway Timeout",
         "content": [
             "The server took too long to respond to your request.",
-            "Please try again in a few minutes, if this issue pesists try contacting {Support}."
+            "Please try again in a few minutes, if this issue persists try contacting {Support}."
         ]
     }
 ]
